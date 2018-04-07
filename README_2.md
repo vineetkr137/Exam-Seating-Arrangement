@@ -30,14 +30,15 @@ Copy into bash file
                echo $start
 
 ### 7.   Make  shell script executable.
-   $ chmod u+x yolo.sh
+        $ chmod u+x yolo.sh
+
 
 ### 8.   Make a shell script on Desktop to direct run yolo from desktop
  Copy into new bash file on Desktop.
               
               #!/bin/bash
               
-        	 start= $( cd  /path/to/executable/bash/script/   ; sh yolo.sh )
+        	  start= $( cd  /path/to/executable/bash/script/   ; sh yolo.sh )
      	
               echo $start  
 ### 9.   Make  shell script executable on Desktop.
