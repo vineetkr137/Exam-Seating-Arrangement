@@ -37,7 +37,7 @@ Copy into bash file
               
               #!/bin/bash
               
-        	start= $( cd  /path/to/executable/bash/script/   ; sh yolo.sh )
+        	 start= $( cd  /path/to/executable/bash/script/   ; sh yolo.sh )
      	
               echo $start  
 ### 9.   Make  shell script executable on Desktop.
