@@ -23,17 +23,21 @@ Flycapture sdk 2.11.3.*
 ### 6.  Create  a bash file in the directory ‘yolo.sh’.
 Copy into bash file
         	 #!/bin/bash
-start=`./darknet detect cfg/yolo.cfg yolo.weights`
-echo $start
+               
+               start=`./darknet detect cfg/yolo.cfg yolo.weights`
+               
+               echo $start
 
 ### 7.   Make  shell script executable.
    $ chmod u+x yolo.sh
 
 ### 8.   Make a shell script on Desktop to direct run yolo from desktop
  Copy into new bash file on Desktop.
-#!/bin/bash
+              #!/bin/bash
+              
         	start= $( cd  /path/to/executable/bash/script/   ; sh yolo.sh )
-     	echo $start  
+     	
+              echo $start  
 ### 9.   Make  shell script executable on Desktop.
      $ chmod u+x yolo.sh
 
