@@ -15,10 +15,10 @@ Flycapture sdk 2.11.3.*
 ### 3.  Run make file command.
        $  make
 ### 4. Download yolo.weights from google drive. 
-     wget https://drive.google.com/open?id=173rsGNOFoPuTjajTTRushMGvL9cQldo-
+       $ wget https://drive.google.com/open?id=173rsGNOFoPuTjajTTRushMGvL9cQldo-
 
 ### 5. Download calibration file 
-    wget https://drive.google.com/open?id=1K9yy0Mc94X_NqdIG_GTmQskLFcXmWM71
+       $ wget https://drive.google.com/open?id=1K9yy0Mc94X_NqdIG_GTmQskLFcXmWM71
 
 ### 6.  Create  a bash file in the directory ‘yolo.sh’.
 Copy into bash file
